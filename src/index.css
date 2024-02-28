@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+* {
+    background-color: #f8f8f8 !important;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.primary-btn,
+.primary-btn * {
+    background-color: #1890ff !important;
+}
+
+.card-bg,
+.card-bg * {
+    background-color: #fff !important;
+}
+
+.footer,
+.footer * {
+    background-color: black !important;
+}
+
+.logo {
+    padding: 1rem 2rem;
+}
+
+.logo-icon {
+    color: #1890ff !important;
+    font-size: 2rem !important;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    min-width: 0;
+    max-width: 100%;
+    padding: 1rem 2rem;
+    color: rgba(0, 0, 0, .65);
+}
+
+.menu li span {
+    padding: 0.3em;
+    font-weight: 300;
+}
+
+#hero {
+    background-image: url('./assets/images/home/bg-hero.jpg');
+}
+
+#pricing .ant-card-head-title {
+    font-size: larger;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    border-bottom: 1px solid;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+}
