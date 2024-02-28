@@ -39,12 +39,12 @@ function AppHeader() {
     const location = useLocation();
     return (
         <>
-            <div className="logo">
+            <Link to={"/"} className="logo">
                 <i className="fa-solid fa-bolt-lightning logo-icon"></i>
                 <span className="uppercase font-medium text-xl p-1.5 text-[#333] tracking-wide leading-relaxed">
                     tech
                 </span>
-            </div>
+            </Link>
             <Menu
                 mode="horizontal"
                 defaultSelectedKeys={
