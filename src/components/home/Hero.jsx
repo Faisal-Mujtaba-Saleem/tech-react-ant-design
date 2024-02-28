@@ -16,7 +16,7 @@ const Hero = () => {
                 <div className="flex items-center justify-between w-[20%]">
                     <Button className='primary-btn' type="primary" size="large">Learn More</Button>
                     <Button className='mx-4' size="large">
-                        <i class="fa-solid fa-display mx-1"></i>
+                        <i className="fa-solid fa-display mx-1"></i>
                         Watch a Demo
                     </Button>
                 </div>
