@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionHead({ sectionTitle, sectionDescription }) {
     return (
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 md:px-0 px-10">
             <h1 className="sm:text-3xl text-xl font-medium title-font text-gray-900 mb-4">
                 {sectionTitle}
             </h1>

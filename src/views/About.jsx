@@ -33,7 +33,7 @@ function About() {
                         aboutItems.map(
                             (item, i) => {
                                 return (
-                                    <Col key={i} span={8}>
+                                    <Col key={i} xs={{ span: 20, offset: 2 }} lg={{ span: 8, offset: 0 }}>
                                         <div className="p-4 md:w-full flex flex-col text-center items-center">
                                             <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0" dangerouslySetInnerHTML={{ __html: item.icon }}>
 

@@ -30,11 +30,12 @@ const Pricing = () => {
                     grid={{
                         gutter: 16,
                         column: 3,
+                        xs: 1, sm: 1, md: 3, lg: 3
                     }}
                     dataSource={pricingItems}
                     renderItem={(item, i) => {
                         return !isError && (
-                            <List.Item>
+                            <List.Item >
                                 <Card title={item.title} className='card-bg flex flex-col items-center justify-center !my-auto'>
                                     <p className={`flex items-center justify-center ${i === 1 ? "!text-[2.50rem]" : "text-4xl"} font-normal text-gray-600 mb-4`}>
                                         {

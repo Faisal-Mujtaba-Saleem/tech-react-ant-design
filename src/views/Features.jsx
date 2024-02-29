@@ -33,7 +33,7 @@ function Features() {
                         features.map(
                             (feature, i) => {
                                 return (
-                                    <Col key={i} span={8} >
+                                    <Col key={i} xs={{ span: 20, offset: 2 }} lg={{ span: 8, offset: 0 }} >
                                         <Card
                                             style={{
                                                 width: "100%",

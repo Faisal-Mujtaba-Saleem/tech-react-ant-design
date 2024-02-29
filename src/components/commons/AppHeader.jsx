@@ -58,11 +58,13 @@ function AppHeader() {
                 }
                 className='menu'
             >
-                {routes.map(route => (
-                    <Menu.Item key={route.key}>
-                        <Link to={route.path}>{route.label}</Link>
-                    </Menu.Item>
-                ))}
+                {
+                    routes.map(route => (
+                        <Menu.Item key={route.key}>
+                            <Link to={route.path}>{route.label}</Link>
+                        </Menu.Item>
+                    ))
+                }
             </Menu>
         </>
     )

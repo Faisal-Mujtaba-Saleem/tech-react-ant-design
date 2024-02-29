@@ -5,7 +5,7 @@ import { useFetch } from '../../utils/useFetch';
 const Hero = () => {
 
     return (
-        <section id='hero' className="relative bg-cover bg-center h-screen flex items-center px-20" >
+        <section id='hero' className="relative bg-cover bg-center h-screen flex items-center md:px-20 px-8" >
             <div className="text-[rgba(0,0,0,.85)]">
                 <h3 className="text-2xl md:text-3xl font-medium mb-4">
                     Web and mobile payment built for developers
